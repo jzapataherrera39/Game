@@ -1,6 +1,23 @@
 <template>
 <div id="principal">
- 
+ <v-sheet elevation="6">
+    <v-tabs
+      background-color="cyan"
+      dark
+      next-icon="mdi-arrow-right-bold-box-outline"
+      prev-icon="mdi-arrow-left-bold-box-outline"
+      show-arrows
+    >
+      <v-tabs-slider color="yellow"></v-tabs-slider>
+      <v-tab
+        v-for="i in 4"
+        :key="i"
+        :href="'#tab-' + i"
+      >
+        Item {{ i }}
+      </v-tab>
+    </v-tabs>
+  </v-sheet>
       <v-tabs 
           right icons-and-text 
           slider-color="light-blue" 
@@ -10,7 +27,7 @@
           >
 
           <v-tab :to="{ name: 'contenido' }">Contenido
-            <v-icon  x-large class="mb-5"></v-icon>
+            <v-icon   x-small class="mb-5"></v-icon>
           </v-tab>
 
           <v-tab :to="{ name: 'actividades' }" class="text-decoration-none mx-auto px-1 tabs_box">Actividades
