@@ -1,30 +1,7 @@
 <template>
 <div id="principal">
  <v-sheet elevation="6">
-    <v-tabs
-      background-color="cyan"
-      dark
-      next-icon="mdi-arrow-right-bold-box-outline"
-      prev-icon="mdi-arrow-left-bold-box-outline"
-      show-arrows
-    >
-      <v-tabs-slider color="yellow"></v-tabs-slider>
-      <v-tab
-        v-for="i in 4"
-        :key="i"
-        :href="'#tab-' + i"
-      >
-        Item {{ i }}
-      </v-tab>
-    </v-tabs>
-  </v-sheet>
-      <v-tabs 
-          right icons-and-text 
-          slider-color="light-blue" 
-          slider-size="3"
-          fixed-tabs
-          hide-slider
-          >
+
 
           <v-tab :to="{ name: 'contenido' }">Contenido
             <v-icon   x-small class="mb-5"></v-icon>
@@ -41,7 +18,6 @@
           <v-tab :to="{ name: 'creditos' }" class="text-decoration-none mx-auto px-1 tabs_box">Creditos
             <v-icon x-large class="mb-5">fas fa-clipboard-check</v-icon>
           </v-tab>
-        </v-tabs>
     <!--   
  <v-img
       src="../assets/Ilustraciones/03.png"
