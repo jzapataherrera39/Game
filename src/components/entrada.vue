@@ -2,7 +2,7 @@
 <div id="principal">
  <v-sheet elevation="6">
     <v-tabs
-      background-color="cyan"
+      background-color="red"
       dark
       next-icon="mdi-arrow-right-bold-box-outline"
       prev-icon="mdi-arrow-left-bold-box-outline"
@@ -12,7 +12,7 @@
       <v-tab :to="{ name: 'contenido' }">Contenido
           <v-icon   x-small class="mb-5"></v-icon>
           </v-tab>
-          
+
           <v-tab :to="{ name: 'actividades' }" class="text-decoration-none mx-auto px-1 tabs_box">Actividades
             <v-icon x-large class="mb-5">fas fa-list-ol</v-icon>
           </v-tab>
