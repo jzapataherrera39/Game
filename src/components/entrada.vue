@@ -14,7 +14,7 @@
           </v-tab>
 
           <v-tab :to="{ name: 'actividades' }" class="text-decoration-none mx-auto px-1 tabs_box">Actividades
-            <v-icon x-large class="mb-5">fas fa-list-ol</v-icon>
+            <v-icon x-large class="mb-5"></v-icon>
           </v-tab>
 
         <v-tab :to="{ name: 'evaluacion' }" class="text-decoration-none mx-auto px-1 tabs_box">Evaluación
