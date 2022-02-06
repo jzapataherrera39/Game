@@ -1,5 +1,6 @@
 <template>
 
+
      <v-row no-gutters>
          <v-col align="center">
           <div>
