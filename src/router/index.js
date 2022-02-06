@@ -9,6 +9,7 @@ import acti1 from "../components/h5p/actividad1";
 import acti2 from "../components/h5p/actividad2";
 import acti3 from "../components/h5p/actividad3";
 import evaluacion from"../components/evaluacion";
+import eva from "../components/h5p/evaluacion";
 Vue.use(VueRouter)
 
 const routes = [
@@ -55,7 +56,11 @@ const routes = [
           name: 'evaluacion',
           component: evaluacion,
           children: [
-
+            {
+              path: 'eva',
+              name: 'eva',
+              component: eva,
+           },
         ],
           },
         {
