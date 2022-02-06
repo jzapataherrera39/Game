@@ -47,9 +47,7 @@ const routes = [
               path: 'acti3',
               name: 'acti3',
               component: acti3,
-           }  
-
-
+           },
         ],
         },
         {
