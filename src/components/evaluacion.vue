@@ -9,9 +9,9 @@
           </v-btn>
         </v-col> -->
         <v-col align="center">
-          <v-btn :to="{ name: 'eva' }"  color="blue" >
+          <v-btn :to="{ name: 'examen' }"  color="blue" >
             <!-- <v-icon class="my-n ml-n3" size="50"> mdi-gamepad-round-up </v-icon> -->
-            <h1>EVALUACION</h1>
+            <h1>EVALUACION </h1>
           </v-btn>
         </v-col>
 
