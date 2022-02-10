@@ -5,6 +5,7 @@ import contenido from "../components/contenido";
 import creditos from "../components/creditos";
 import entrada from "../components/entrada.vue";
 import actividades from"../components/actividades";
+import cuento from"../components/cuento";
 import acti1 from "../components/h5p/actividad1";
 import acti2 from "../components/h5p/actividad2";
 import acti3 from "../components/h5p/actividad3";
@@ -28,6 +29,11 @@ const routes = [
           path: '/contenido',
           name: 'contenido',
           component: contenido,
+         },
+         {
+          path: '/cuento',
+          name: 'cuento',
+          component: cuento,
          },
          {
           path: '/actividades',
